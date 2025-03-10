@@ -51,8 +51,8 @@ export default class Girl extends Phaser.Physics.Matter.Sprite {
     this.setDepth(20);
     this.label = "girl";
     this.scene.add.existing(this);
-    // createKseniaAnims(this.scene.anims);
-    createAnims(this.scene.anims);
+    createKseniaAnims(this.scene.anims);
+    // createAnims(this.scene.anims);
     // this.anims.play(`${this.girlSpriteKey}_idle`);
 
     this.emitter = this.scene.add.particles(0, 0, "flare", {
@@ -104,7 +104,7 @@ export default class Girl extends Phaser.Physics.Matter.Sprite {
         this.flipX = false;
       }
     } else if (this.body!.velocity.y > 0) {
-      this.anims.play(`${this.girlSpriteKey}_fall`, true);
+      this.anims.play(`${this.girlSpriteKey}_down`, true);
       if (right.isDown) {
         this.setVelocityX(speed);
         this.flipX = true;

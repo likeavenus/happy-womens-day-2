@@ -1,33 +1,27 @@
 import Phaser from "phaser";
-import { greetings2 } from "./constants";
+import { greetings } from "./constants";
 import { TextBox } from "../containers/TextBox";
 
 export const GIRLS = [
-  { name: "Савч", greetings: greetings2.savch.text, key: "savch" },
-  { name: "Русиня", greetings: greetings2.rusinya.text, key: "rusinya" },
+  { name: "Ксения Ротозей", greetings: greetings.ksenia.text, key: "ksenia" },
+  { name: "Анна Величко", greetings: greetings.anna.text, key: "anna" },
   {
-    name: "Наташа",
-    greetings: greetings2.natasha.text,
-    key: "natasha",
+    name: "Наталья Поветкина",
+    greetings: greetings.natalia_p.text,
+    key: "natalia_p",
   },
   {
-    name: "Таня",
-    greetings: greetings2.tanya.text,
-    key: "tanya",
+    name: "Анастасия Петросян",
+    greetings: greetings.nastya.text,
+    key: "nastya",
   },
   {
-    name: "Карина",
-    greetings: greetings2.karina.text,
-    key: "karina",
+    name: "Наталья Войлошникова",
+    greetings: greetings.natalia_v.text,
+    key: "natalia_v",
   },
-  { name: "Маша", greetings: greetings2.masha.text, key: "masha" },
-  { name: "Шу", greetings: greetings2.masha.text, key: "shu" },
-  { name: "Катя", greetings: greetings2.katya.text, key: "katya" },
-  { name: "Влада", greetings: greetings2.vlada.text, key: "vlada" },
-  { name: "Ксюша", greetings: greetings2.ksusha.text, key: "ksusha" },
-  { name: "Сашенька", greetings: greetings2.sashenka.text, key: "sashenka" },
-  { name: "Александра", greetings: greetings2.alexandra.text, key: "alexandra" },
-  { name: "Лиза", greetings: greetings2.liza.text, key: "liza" },
+  { name: "Анна Сковикова", greetings: greetings.anna_sk.text, key: "anna_sk" },
+  { name: "Дарья Миронова", greetings: greetings.darya.text, key: "darya" },
 ];
 
 export default class Menu extends Phaser.Scene {
@@ -120,7 +114,7 @@ export default class Menu extends Phaser.Scene {
     );
 
     const screenWidth = window.innerWidth;
-    const SMALL_VIEWPORT = 440;
+    const SMALL_VIEWPORT = 380;
     const isSmallScreen = screenWidth <= SMALL_VIEWPORT;
     console.log(screenWidth);
 
@@ -187,6 +181,7 @@ export default class Menu extends Phaser.Scene {
             .text(targetX, targetY, `${girl.name}`, {
               color: "#ea4386",
               fontSize: "18px",
+              wordWrap: { width: 90 },
             })
             .setOrigin(0.5)
             .setAlpha(0);

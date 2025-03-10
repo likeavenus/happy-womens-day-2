@@ -322,7 +322,7 @@ export const createAnims = (anims: Phaser.Animations.AnimationManager) => {
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 };
 
@@ -336,7 +336,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -348,12 +348,12 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
     key: "ksenia_jump",
-    frames: anims.generateFrameNames("alexandra_jump", {
+    frames: anims.generateFrameNames("ksenia_jump", {
       start: 0,
       end: 3,
       prefix: "Char1_Jump-Up",
@@ -386,7 +386,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -398,7 +398,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -410,7 +410,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -422,7 +422,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   /** Nat V */
@@ -435,7 +435,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -447,7 +447,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -459,7 +459,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -471,7 +471,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   /** Nastya */
@@ -484,7 +484,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -496,7 +496,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -508,7 +508,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -520,7 +520,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   /** Anna */
@@ -533,7 +533,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -545,7 +545,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -557,7 +557,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -569,7 +569,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   /** Natalia P */
@@ -582,7 +582,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -594,7 +594,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -606,7 +606,7 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 
   anims.create({
@@ -618,6 +618,6 @@ export const createKseniaAnims = (anims: Phaser.Animations.AnimationManager) => 
       suffix: ".png",
     }),
     repeat: -1,
-    frameRate: 10,
+    frameRate: 20,
   });
 };

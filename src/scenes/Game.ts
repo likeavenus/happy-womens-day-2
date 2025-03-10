@@ -8,7 +8,7 @@ import MovingPlatform from "../containers/MovingPlatform";
 import { TextBox } from "../containers/TextBox";
 import Chest from "../characters/chest/chest";
 import Intro from "./Intro";
-import { COLLISION_CATEGORIES, compliments, greetings2 } from "./constants";
+import { COLLISION_CATEGORIES, compliments, greetings } from "./constants";
 import { createCoinAnims } from "../characters/coin/anims";
 import { Bat } from "../characters/bat/bat";
 import { PetalGenerator } from "../characters/petal/petal";
@@ -332,7 +332,7 @@ class Game extends Phaser.Scene {
       this.cameras.main.centerY, // Центрирование по вертикали
       300,
       420,
-      greetings2[girlKey].text
+      greetings[girlKey].text
     )
       .setDepth(1000)
       .setInteractive();

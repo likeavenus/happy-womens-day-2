@@ -18,7 +18,7 @@ const phasermsg = () => {
 };
 
 export default defineConfig({
-  base: "/happy-womens-day-jump",
+  base: "/happy-womens-day-2",
   logLevel: "warning",
   build: {
     rollupOptions: {
